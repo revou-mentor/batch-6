@@ -103,6 +103,7 @@ main {
   gap: 24px;
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
 
 .img-logo {
