@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EFEFEF;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  height: 100vh;
+}
+
+.landing_container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.header {
+  grid-area: header;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 360px;
+}
+
+.card_title {
+  text-align: center;
+}
+
+.card_content {
+  gap: 1rem;
+}
+
+.card_content table {
+  text-align: left;
+  border-spacing: 0.5rem;
+}
+
+.card_content img {
+  width: 100%;
+}
